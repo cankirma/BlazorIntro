@@ -82,41 +82,14 @@ using ToDoAppBlazorIntro.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\ToDo.razor"
-using System.Net;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/ToDo")]
-    public partial class ToDo : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/student")]
+    public partial class Student : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 36 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\ToDo.razor"
-       
-
-    TodoItem[] toDoItems;
-
-    protected override async Task OnInitializedAsync() => toDoItems = await Http.GetFromJsonAsync<TodoItem[]>("https://jsonplaceholder.typicode.com/todos");
-
-    public class TodoItem
-    {
-        public int UserId { get; set; }
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public bool Completed { get; set; }
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

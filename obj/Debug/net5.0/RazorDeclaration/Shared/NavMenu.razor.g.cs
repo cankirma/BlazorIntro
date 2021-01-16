@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ToDoAppBlazorIntro.Shared
+namespace BlazorIntro.Shared
 {
     #line hidden
     using System;
@@ -90,7 +90,7 @@ using ToDoAppBlazorIntro.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Shared\NavMenu.razor"
+#line 38 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

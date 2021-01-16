@@ -1150,9 +1150,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\can_k\\Desktop\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro.csproj",
-      "projectName": "ToDoAppBlazorIntro",
-      "projectPath": "C:\\Users\\can_k\\Desktop\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro.csproj",
+      "projectUniqueName": "C:\\Users\\can_k\\Desktop\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro\\BlazorIntro.csproj",
+      "projectName": "BlazorIntro",
+      "projectPath": "C:\\Users\\can_k\\Desktop\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro\\BlazorIntro.csproj",
       "packagesPath": "C:\\Users\\can_k\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\can_k\\Desktop\\ToDoAppBlazorIntro\\ToDoAppBlazorIntro\\obj\\",
       "projectStyle": "PackageReference",
