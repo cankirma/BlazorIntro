@@ -1,12 +1,18 @@
 ﻿@page "/student"
 <h3>Student List</h3>
-<StudentDetail StudentName="Can"></StudentDetail>>
+<StudentDetail StudentName="Can" OnClick="@Save"></StudentDetail>
 <h5>@StudentList</h5>
+<h5>@_saveMessage</h5>
 @code {
     public string StudentList { get; set; }
+    private string _saveMessage;
     protected override async Task OnInitializedAsync()
     {
         StudentList = "Can Raif Baha Affan Umut";
     }
 
+    private void Save(MouseEventArgs e)
+    {
+        _saveMessage = "kaydedildi";
+    }
 }

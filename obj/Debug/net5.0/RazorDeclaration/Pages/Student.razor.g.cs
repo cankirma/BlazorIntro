@@ -91,14 +91,19 @@ using BlazorIntro.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Student.razor"
+#line 6 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Student.razor"
        
     public string StudentList { get; set; }
+    private string _saveMessage;
     protected override async Task OnInitializedAsync()
     {
         StudentList = "Can Raif Baha Affan Umut";
     }
 
+    private void Save(MouseEventArgs e)
+    {
+        _saveMessage = "kaydedildi";
+    }
 
 #line default
 #line hidden

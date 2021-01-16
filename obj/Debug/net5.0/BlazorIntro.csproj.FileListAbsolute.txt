@@ -636,3 +636,5 @@ C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Bl
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\RazorDeclaration\Pages\StudentDetail.razor.g.cs
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Razor\Pages\StudentDetail.razor.g.cs
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\BlazorIntro.csprojAssemblyReference.cache
+C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\RazorDeclaration\Pages\Multipleparameter.razor.g.cs
+C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Razor\Pages\Multipleparameter.razor.g.cs

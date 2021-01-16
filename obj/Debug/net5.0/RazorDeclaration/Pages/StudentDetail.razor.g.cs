@@ -94,6 +94,8 @@ using BlazorIntro.Shared;
        
     [Parameter]
     public string StudentName { get; set; }
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClick { get; set; }
 
 #line default
 #line hidden
