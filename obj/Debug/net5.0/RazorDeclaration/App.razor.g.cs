@@ -69,15 +69,15 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\_Imports.razor"
-using ToDoAppBlazorIntro;
+#line 10 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\_Imports.razor"
+using BlazorIntro.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\_Imports.razor"
-using ToDoAppBlazorIntro.Shared;
+#line 1 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\App.razor"
+using BlazorIntro;
 
 #line default
 #line hidden

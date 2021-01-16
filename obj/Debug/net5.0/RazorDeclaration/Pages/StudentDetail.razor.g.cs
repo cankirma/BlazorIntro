@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorIntro.Shared
+namespace BlazorIntro.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,7 @@ using BlazorIntro.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class StudentDetail : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,11 +90,10 @@ using BlazorIntro.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Shared\SurveyPrompt.razor"
+#line 4 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\StudentDetail.razor"
        
-    // Demonstrates how a parent component can supply parameters
     [Parameter]
-    public string Title { get; set; }
+    public string StudentName { get; set; }
 
 #line default
 #line hidden

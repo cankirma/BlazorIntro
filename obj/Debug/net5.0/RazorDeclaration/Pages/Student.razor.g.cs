@@ -70,14 +70,14 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\_Imports.razor"
-using ToDoAppBlazorIntro;
+using BlazorIntro;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\_Imports.razor"
-using ToDoAppBlazorIntro.Shared;
+using BlazorIntro.Shared;
 
 #line default
 #line hidden
@@ -90,6 +90,19 @@ using ToDoAppBlazorIntro.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 5 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Student.razor"
+       
+    public string StudentList { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        StudentList = "Can Raif Baha Affan Umut";
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

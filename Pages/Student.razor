@@ -1,6 +1,12 @@
 ﻿@page "/student"
 <h3>Student List</h3>
-
+<StudentDetail StudentName="Can"></StudentDetail>>
+<h5>@StudentList</h5>
 @code {
+    public string StudentList { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        StudentList = "Can Raif Baha Affan Umut";
+    }
 
 }
