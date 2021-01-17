@@ -93,14 +93,28 @@ using BlazorIntro.Shared;
 #nullable restore
 #line 5 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Multipleparameter.razor"
        
+
     [Parameter]
     public string MaxLength { get; set; } = "10";
+
     [Parameter]
     public string Placeholder { get; set; } = "first name";
+
     [Parameter]
     public string Required { get; set; } = "required";
+
     [Parameter]
     public string Size { get; set; } = "50";
+
+    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>
+    {
+        {"maxlength", "10"},
+        {"placeholder", "firstName"},
+        {"required", "required"},
+        {"size", "50"},
+
+    };
+
 
 #line default
 #line hidden
