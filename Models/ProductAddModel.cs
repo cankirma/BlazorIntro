@@ -13,17 +13,22 @@ namespace BlazorIntro.Models
             get => _id;
             set => _id = value;
         }
-        [Required]
+        [Required(ErrorMessage = "Is Valid")]
+        [StringLength(20, ErrorMessage = "Max 20")]
         public string ProductName
         {
             get => _productName;
             set => _productName = value;
         }
         [Required]
+        [StringLength(200)]
+     
         public string Description
         {
             get => _description;
             set => _description = value;
         }
+        [Required]
+        public string CategoryId { get; set; }
     }
 }

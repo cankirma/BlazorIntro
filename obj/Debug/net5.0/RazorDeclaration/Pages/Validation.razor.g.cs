@@ -105,7 +105,7 @@ using System.Dynamic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Validation.razor"
+#line 16 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\Validation.razor"
        
     ProductAddModel productAddModel = new ProductAddModel();
 

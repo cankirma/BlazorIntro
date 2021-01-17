@@ -642,3 +642,5 @@ C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Ra
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Razor\Pages\Binding.razor.g.cs
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\RazorDeclaration\Pages\Validation.razor.g.cs
 C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Razor\Pages\Validation.razor.g.cs
+C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\RazorDeclaration\Pages\ProductAdd.razor.g.cs
+C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\obj\Debug\net5.0\Razor\Pages\ProductAdd.razor.g.cs

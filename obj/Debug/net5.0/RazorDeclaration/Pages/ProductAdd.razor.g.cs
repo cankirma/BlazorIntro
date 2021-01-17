@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorIntro.Shared
+namespace BlazorIntro.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,15 @@ using BlazorIntro.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\ProductAdd.razor"
+using BlazorIntro.Models;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/ProductAdd")]
+    public partial class ProductAdd : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +98,15 @@ using BlazorIntro.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Shared\NavMenu.razor"
+#line 32 "C:\Users\can_k\Desktop\ToDoAppBlazorIntro\ToDoAppBlazorIntro\Pages\ProductAdd.razor"
        
-    private bool collapseNavMenu = true;
+    ProductAddModel productAddModel = new ProductAddModel();
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void HandleSave()
     {
-        collapseNavMenu = !collapseNavMenu;
+        Console.WriteLine("saved");
     }
+
 
 #line default
 #line hidden

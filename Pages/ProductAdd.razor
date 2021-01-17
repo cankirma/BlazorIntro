@@ -1,0 +1,40 @@
+﻿@page "/ProductAdd"
+@using BlazorIntro.Models
+
+
+<h3>ProductAdd</h3>
+<EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
+    @*<DataAnnotationsValidator />*@
+    @*<ValidationSummary />*@
+    <div class="table table-striped">
+        <div class="form-group">
+            <h4>ProductName</h4>
+            <InputText id="productName" Class="form-control" Placeholder="ProductName" @bind-Value="@productAddModel.ProductName"></InputText>
+            <ValidationMessage For="productAddModel.ProductName" />
+        </div>
+        <div class="form-group">
+
+            <h4>Product Description</h4>
+            <InputText id="description" Class="form-control" @bind-Value="@productAddModel.Description"></InputText>
+        </div>
+
+        <h4>Category</h4>
+        <InputSelect id="categoryId" Class="form-control" @bind-Value="productAddModel.CategoryId">
+            <option>Choose</option>
+            <option value="1">Beverages</option>
+            <option value="2">Food</option>
+        </InputSelect>
+        <br />
+        <button Class="btn btn-success" type="submit">save</button>
+    </div>
+</EditForm>
+
+@code {
+    ProductAddModel productAddModel = new ProductAddModel();
+
+    private void HandleSave()
+    {
+        Console.WriteLine("saved");
+    }
+
+}
